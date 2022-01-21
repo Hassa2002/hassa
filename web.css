@@ -1,0 +1,30 @@
+# list{
+	list-style-type:disc;
+	}
+li{
+	font-size:x-large;
+	color:#FE7F9C;
+	font-style:oblique;
+	}
+	
+body{
+	width:50%; 
+	margin:auto
+	}
+h1{
+	color:#CD5C5C;
+	text-align:center;
+	font-style:oblique;
+	font-size:xx-large;
+	}
+h3{	
+	font-style:oblique;
+	}
+h{
+	 font-style:oblique;
+	 color:babypink;
+	 }
+h2{
+	color:purple;
+	}
+
