@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>form</title>
+	</head>
+	<body>
+		<div style="width:50%; margin:auto">
+		<h2>REGISTRATION FORM </h2>
+		<form action="success.html">
+		 <input type="text" placeholder="your name" required/><br/><br/>
+		 Gender:
+		 <input type="radio" name="gender" value="M">M
+		 <input type="radio" name="gender" value="F">F<br/><br/>
+		 <input type="email" placeholder="Email address" required/><br/><br/>
+		 Date Of Birth:<br/>
+		 <input type="date"><br/><br/>
+		 <input type="password" placeholder="password"><br/><br/>
+		 Address :<br/>
+		 <textarea rows="5"></textarea><br/><br/>
+		 select your programme :</br>
+		 <input list="programme" name="select your programmes" />
+		 <datalist id="programme">
+		 	<option value="computer science"/>
+		 	<option value="physics"/>
+		 	<option value="chemistry"/>
+		 	<option value="maths"/>
+		 	<option value="statistics"/>
+		 </datalist><br/><br/>
+		 Select your university:
+		 <select>
+		 	<option>Kannur university</option>
+		 	<option>Calicut university</option>
+		 	<option>M.G university</option>
+		 	<option>Kerala university</option>
+		 </select><br/><br/>
+		 Language Known :<br/>
+		 <input type="checkbox" name="language" value="English">English
+		 <input type="checkbox" name="language" value="Hindi">Hindi
+		 <input type="checkbox" name="language" value="Malayalam">Malayalam <br/><br/>
+		 <input type="submit">
+		</form>
+		</div>
+	
+	</body>
+</html>
